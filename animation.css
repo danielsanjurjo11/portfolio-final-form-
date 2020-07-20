@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Unica+One);
+
+.body-a {
+    font: 100%/1.4 Unica One; 
+	text-transform: uppercase;
+	background: #222;
+	height: 100vh;
+	overflow: hidden;
+}
+
+h1 {
+	font-size: 40px;
+	text-align: center;
+}
+
+.layer-a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	color: #222;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.ul-a {
+		font-size: xx-large;
+		line-height: 4;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #222;
+        text-align: center;
+}
+
+li a{
+    display: inline;
+}
+
+.home {
+	color : #fff;
+	background-color: #222;	
+}
+    
+
+

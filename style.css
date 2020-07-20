@@ -1,0 +1,107 @@
+body {
+    /*   background-color: rgb(59, 68, 75); */
+    font-family: 'Roboto', sans-serif;
+      background-color: #333;
+    }
+    
+    a {
+        text-decoration: none;
+        font-size: 25px;
+    }
+    
+    #navbar {
+        overflow: auto;
+    }
+    
+    #navbar h1 {
+      float: left;
+      padding: 15px;
+    }
+    
+    .logo {
+      color: rgb(251, 251, 251);
+    }
+    
+    #navbar a {
+        color: #fff;
+    }
+    
+    #navbar ul{
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;  
+        padding: 15px;
+    }
+    
+    #navbar ul li {
+        float: left;
+    }
+    
+    #navbar ul li a {
+        display: block;
+        padding: 15px;
+        text-align: center;
+    }
+  
+  
+    /* Cre */
+    #navbar ul li a:hover,
+    #navbar ul li a.current {
+        background: rgb(6, 42, 120);
+        color: #fff;
+    }
+
+    .self {
+      font-size: large;
+      text-align: center;
+      padding-top: 1%;
+      color: #fff;
+      background-color: rgb(105, 105, 105);
+    }
+
+    .name {
+      font-size: xx-large; 
+      color:#fff;
+      text-align: center;
+      background-color: rgb(105, 105, 105);
+    }
+
+    .back {
+      background-color: rgb(105, 105, 105);
+    }
+
+    .me{
+      float: right;
+      width: 20%;
+      border-radius: 13rem;
+    }
+    /* languages */
+    .lang {
+     align-content: center;
+      color: white;
+      padding-top: 1%;
+      display: inline;
+      padding-left: 25%;
+    }
+    /* footer */
+    footer {
+        text-align:center;
+        background-color: #333;
+        height:140px; 
+        padding: 15%;
+        color: #fff;
+        font-size: larger;
+    }
+    
+    
+    .logos {
+      height: 50px;
+    }
+    
+    .arrow {
+      height: 50px;
+      display: block; /* to separate it from an auto inline, and makes it go down to next line*/
+      margin: 0 auto; /* centers image */
+    }
+    
+    
